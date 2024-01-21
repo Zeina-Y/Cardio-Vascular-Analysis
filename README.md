@@ -1,4 +1,7 @@
 Data Acquisition: csv from kaggle 
+
+Link: https://www.kaggle.com/datasets/alphiree/cardiovascular-diseases-risk-prediction-dataset/data?select=CVD_cleaned.csv
+
 Data Cleaning: Remove duplicates values, there were no missing values not incorrect data, etc. Data was almost ready and clean.
 
 Data Preparation: I Converted some columns that have 'Yes' and 'No' values into numeric one so I can perform analysis and calculation easier.
