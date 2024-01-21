@@ -5,7 +5,9 @@ Data Preparation: I Converted some columns that have 'Yes' and 'No' values into 
 
 Exploratory Data Analysis: 
 1- I used summary statistics and some basic visualizations like boxplots and histograms on numeric data to describe data spread and shape using matplotlib library. 
+
 2- I created bar chart for 'Age_Category' counts using seaborn library for its more varied effects. 
+
 3- I created data frame of columns that have 'Yes' and 'No' values with their value counts indexed by 'Yes' and 'No', Then I transposed this dataframe so it can be used in a stacked bar plot to visualize the majority and minority value counts for each of these columns using matplot library. 
 
 Analyzing the Data:
