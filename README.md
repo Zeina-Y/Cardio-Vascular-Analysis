@@ -16,13 +16,13 @@ First I divided the data into smokers and non-smokers and then bootstrapped 1000
 3- Question three: Is there a relationship between General Health and Smoking?
 I answered the question using matplot bar plot visualization for smoking proportions of each of General Health categories.
 4- For the last section of my analysis I wanted to predict heart disease using Decision Tree Classifier. First I prepared my data by removing multi-collinearity columns, transforming columns of 'Yes' and 'No' into binary numeric values, split data into X and y and then split twice further into training, validation, testing data. I build a pipeline for decision tree model and used ordinal encoding and set max depth to 13 after tuning hyper-parameters. 
-Model accuracy : 0.92
-I visualized the decision logic of my model and created horizontal bar chart for Gini Importances of the model.
+Model accuracy: 0.92
+I visualized the decision logic of my model and created a horizontal bar chart for Gini Importances of the model.
 
 Conclusions: 
 1- There's positive relation between having heart disease and smoking.
-2- According to test results the probability of having heart disease for smokers is higher than than of those who are non-smokers.
-3- There's also a relation between general health and smoking as higher rates of smokers [53:62]% associated with poor and fair general health condition.
+2- According to test results the probability of having heart disease for smokers is higher than that of those who are non-smokers.
+3- There's also a relation between general health and smoking as higher rates of smokers [53:62]% are associated with poor and fair general health conditions.
 4- Model performance for decision tree classifier of heart disease is 0.9115 
 
 
