@@ -1,12 +1,17 @@
-Data Acquisition: csv from kaggle 
+# Cardiovascular Analysis
 
-Link: https://www.kaggle.com/datasets/alphiree/cardiovascular-diseases-risk-prediction-dataset/data?select=CVD_cleaned.csv
+## Data Acquisition: 
+csv from kaggle 
 
-Data Cleaning: Remove duplicates values, there were no missing values not incorrect data, etc. Data was almost ready and clean.
+**Link:** https://www.kaggle.com/datasets/alphiree/cardiovascular-diseases-risk-prediction-dataset/data?select=CVD_cleaned.csv
 
-Data Preparation: I Converted some columns that have 'Yes' and 'No' values into numeric one so I can perform analysis and calculation easier.
+## Data Cleaning:
+Remove duplicates values, there were no missing values not incorrect data, etc. Data was almost ready and clean.
 
-Exploratory Data Analysis: 
+## Data Preparation:
+I Converted some columns that have 'Yes' and 'No' values into numeric one so I can perform analysis and calculation easier.
+
+## Exploratory Data Analysis: 
 
 1- I used summary statistics and some basic visualizations like boxplots and histograms on numeric data to describe data spread and shape using matplotlib library. 
 
@@ -14,7 +19,7 @@ Exploratory Data Analysis:
 
 3- I created data frame of columns that have 'Yes' and 'No' values with their value counts indexed by 'Yes' and 'No', Then I transposed this dataframe so it can be used in a stacked bar plot to visualize the majority and minority value counts for each of these columns using matplot library. 
 
-Analyzing the Data:
+## Analyzing the Data:
 
 I proposed three questions and used mashine learning to perfrom prediction
 
@@ -30,7 +35,7 @@ I answered the question using matplot bar plot visualization for smoking proport
 Model accuracy: 0.92
 I visualized the decision logic of my model and created a horizontal bar chart for Gini Importances of the model.
 
-Conclusions: 
+## Conclusions: 
 
 1- There's positive relation between having heart disease and smoking.
 
